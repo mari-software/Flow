@@ -1,5 +1,8 @@
 <script lang="ts">
 	import { goToRoute } from '$lib/util/router.util';
+	import { onMount } from 'svelte';
 
-	goToRoute('app');
+	onMount(() => {
+		goToRoute('app');
+	});
 </script>
