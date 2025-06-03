@@ -1,1 +1,5 @@
-<button class="d-btn d-btn-soft">Default</button>
+<script lang="ts">
+	import { goToRoute } from '$lib/util/router.util';
+
+	goToRoute('app');
+</script>

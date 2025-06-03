@@ -3,7 +3,9 @@
 @plugin '@tailwindcss/typography';
 
 @plugin "daisyui" {
-  themes: all;
-  prefix: "d-";
-  logs: false;
+	themes: all;
+	prefix: 'd-';
+	logs: false;
 }
+
+@import './lib/asset/style/font.style.css';
