@@ -2,4 +2,4 @@
 	let { className } = $props<{ className?: string }>();
 </script>
 
-<span class="loading {className}"></span>
+<span class="d-loading {className}"></span>
