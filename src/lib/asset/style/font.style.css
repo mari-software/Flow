@@ -20,10 +20,7 @@
 	font-display: swap;
 }
 
-/* Apply font family to all elements */
-* {
-	font-family: var(--font-family);
-}
+@import './variable.style.css';
 
 :root[data-font='Inter'] {
 	font-family: 'Inter', sans-serif;
@@ -35,4 +32,19 @@
 
 :root[data-font='NotoSerif'] {
 	font-family: 'NotoSerif', serif;
+}
+/* Apply font family to all elements */
+
+* {
+	font-family: var(--font-family);
+}
+
+.m-font-display-large {
+	font-size: var(--font-size-display-large);
+	font-weight: var(--font-weight-bold);
+}
+
+.m-font-display-small {
+	font-size: var(--font-size-display-small);
+	font-weight: var(--font-weight-semibold);
 }

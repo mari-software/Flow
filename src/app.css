@@ -8,4 +8,5 @@
 	logs: false;
 }
 
+@import './lib/asset/style/variable.style.css';
 @import './lib/asset/style/font.style.css';

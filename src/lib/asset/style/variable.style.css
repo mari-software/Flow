@@ -1,0 +1,21 @@
+:root {
+	--font-size-display-large: 52px;
+	--font-size-display-small: 44px;
+
+	--font-size-display-heading-1: 40px;
+	--font-size-display-heading-2: 36px;
+	--font-size-display-heading-3: 32px;
+	--font-size-display-heading-4: 28px;
+	--font-size-display-heading-5: 24px;
+	--font-size-display-heading-6: 20px;
+
+	--font-size-paragraph-large: 18px;
+	--font-size-paragraph-medium: 16px;
+	--font-size-paragraph-small: 14px;
+	--font-size-paragraph-extra-small: 12px;
+
+	--font-weight-regular: 400;
+	--font-weight-medium: 500;
+	--font-weight-semibold: 600;
+	--font-weight-bold: 700;
+}
