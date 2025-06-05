@@ -41,10 +41,64 @@
 
 .m-font-display-large {
 	font-size: var(--font-size-display-large);
-	font-weight: var(--font-weight-bold);
 }
 
 .m-font-display-small {
 	font-size: var(--font-size-display-small);
+}
+
+.m-font-heading-1 {
+	font-size: var(--font-size-display-heading-1);
+}
+
+.m-font-heading-2 {
+	font-size: var(--font-size-display-heading-2);
+}
+
+.m-font-heading-3 {
+	font-size: var(--font-size-display-heading-3);
+}
+
+.m-font-heading-4 {
+	font-size: var(--font-size-display-heading-4);
+}
+
+.m-font-heading-5 {
+	font-size: var(--font-size-display-heading-5);
+}
+
+.m-font-heading-6 {
+	font-size: var(--font-size-display-heading-6);
+}
+
+.m-font-paragraph-large {
+	font-size: var(--font-size-paragraph-large);
+}
+
+.m-font-paragraph-medium {
+	font-size: var(--font-size-paragraph-medium);
+}
+
+.m-font-paragraph-small {
+	font-size: var(--font-size-paragraph-small);
+}
+
+.m-font-paragraph-extra-small {
+	font-size: var(--font-size-paragraph-extra-small);
+}
+
+.m-font-weight-regular {
+	font-weight: var(--font-weight-regular);
+}
+
+.m-font-weight-medium {
+	font-weight: var(--font-weight-medium);
+}
+
+.m-font-weight-semibold {
 	font-weight: var(--font-weight-semibold);
+}
+
+.m-font-weight-bold {
+	font-weight: var(--font-weight-bold);
 }

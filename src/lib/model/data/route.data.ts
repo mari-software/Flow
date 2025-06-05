@@ -1,43 +1,44 @@
 // src/lib/model/data/route.data.ts
-import PhosphorCloudSun from '$lib/component/library/phosphor/PhosphorCloudSun.svelte';
-import PhosphorDatabase from '$lib/component/library/phosphor/PhosphorDatabase.svelte';
-import PhosphorRobot from '$lib/component/library/phosphor/PhosphorRobot.svelte';
-import PhosphorPersonArmsSpread from '$lib/component/library/phosphor/PhosphorPersonArmsSpread.svelte';
-import PhosphorCloudArrowUp from '$lib/component/library/phosphor/PhosphorCloudArrowUp.svelte';
-import PhosphorUsersFour from '$lib/component/library/phosphor/PhosphorUsersFour.svelte';
 
 import type { RouteInterface } from '$lib/model/interface/route.interface';
+import {
+	LucideBrainCircuit,
+	LucideCircleUser,
+	LucideCloudSun,
+	LucideCloudUpload,
+	LucideDatabaseZap,
+	LucidePersonStanding
+} from '@lucide/svelte';
 
 export const FlowRouteData: RouteInterface[] = [
-    
 	{
 		name: 'hr',
 		url: '/app/hr-app',
-		icon: PhosphorUsersFour
+		icon: LucidePersonStanding
 	},
 	{
 		name: 'weather',
 		url: '/app/weather-app',
-		icon: PhosphorCloudSun
+		icon: LucideCloudSun
 	},
 	{
 		name: 'dbms',
 		url: '/app/dbms-app',
-		icon: PhosphorDatabase
+		icon: LucideDatabaseZap
 	},
 	{
 		name: 'ai',
 		url: '/app/ai-app',
-		icon: PhosphorRobot
+		icon: LucideBrainCircuit
 	},
 	{
 		name: 'account',
 		url: '/app/account-app',
-		icon: PhosphorPersonArmsSpread
+		icon: LucideCircleUser
 	},
 	{
 		name: 'cloud',
 		url: '/app/cloud-app',
-		icon: PhosphorCloudArrowUp
-	},
+		icon: LucideCloudUpload
+	}
 ];
