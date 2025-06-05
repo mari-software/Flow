@@ -1,10 +1,12 @@
 <script lang="ts">
-    let { children, className } = $props<{
-        children: () => void; 
-        className?: string ;
-         }>();
+	let { children, className, fieldsetLegend } = $props<{
+		children: () => void;
+		className?: string;
+		fieldsetLegend: string;
+	}>();
 </script>
 
-<fieldset class="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
-    {@render children()}
+<fieldset class="d-fieldset {className}">
+	<legend class="d-fieldset-legend">{fieldsetLegend}</legend>
+	{@render children()}
 </fieldset>

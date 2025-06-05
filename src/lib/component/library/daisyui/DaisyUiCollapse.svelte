@@ -8,8 +8,8 @@
 
 <div class={className}>
 	<input type="checkbox" />
-	<div class="collapse-title font-semibold">{collapseTitle}</div>
-	<div class="collapse-content text-sm">
+	<div class="d-collapse-title font-semibold">{collapseTitle}</div>
+	<div class="d-collapse-content text-sm">
 		{collapseContent}
 	</div>
 </div>
