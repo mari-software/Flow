@@ -7,5 +7,6 @@
 	}>();
 </script>
 
-<button class="d-btn {className}" onclick={onClick}>{@render children()}</button
->
+<button class="d-btn {className}" onclick={onClick}>
+	{@render children()}
+</button>

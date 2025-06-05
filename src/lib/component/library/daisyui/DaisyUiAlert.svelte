@@ -4,7 +4,6 @@
 	let {
 		children,
 		className,
-		alertText,
 		show = false
 	} = $props<{
 		children?: () => void;
